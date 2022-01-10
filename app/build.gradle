@@ -21,6 +21,7 @@ dependencies {
   implementation 'software.amazon.awssdk:s3'
   implementation 'software.amazon.awssdk:ssm'
   implementation 'org.apache.logging.log4j:log4j-slf4j-impl:2.17.1'
+  implementation 'com.google.code.gson:gson:2.8.9'
 }
 
 application {
