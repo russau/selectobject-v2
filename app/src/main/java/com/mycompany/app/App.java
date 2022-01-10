@@ -31,8 +31,8 @@ import software.amazon.awssdk.services.ssm.model.GetParameterResponse;
  */
 public class App {
 
-  private static final SsmClient ssmClient = SsmClient.builder().region(Region.US_EAST_1).build();
-  private static final S3AsyncClient s3 = S3AsyncClient.builder().region(Region.US_EAST_1).build();
+  private static final SsmClient ssmClient = SsmClient.builder().build();
+  private static final S3AsyncClient s3 = S3AsyncClient.builder().build();
 
   public static void main(String[] args) {
     readDragonData();
