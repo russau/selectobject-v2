@@ -8,3 +8,5 @@ build
 *.class
 
 bin/
+
+.vscode/
